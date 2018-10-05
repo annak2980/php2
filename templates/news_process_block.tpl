@@ -1,0 +1,1 @@
+<a class='remove_news' id='{{ID_NEWS}}' href=''><button>Удалить</button></a>

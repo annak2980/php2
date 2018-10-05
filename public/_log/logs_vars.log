@@ -1,0 +1,392 @@
+### 06.08.2018 16:36:24
+
+
+
+### 06.08.2018 16:36:25
+
+
+
+### 06.08.2018 16:36:25
+
+
+
+### 06.08.2018 16:36:26
+
+
+
+### 06.08.2018 16:36:26
+
+
+
+### 06.08.2018 16:36:31
+
+
+
+### 06.08.2018 16:36:33
+
+
+
+### 06.08.2018 16:37:39
+
+
+
+### 06.08.2018 16:37:41
+
+
+
+### 06.08.2018 16:37:52
+
+
+
+### 06.08.2018 16:37:54
+
+
+
+### 06.08.2018 16:37:54
+
+
+
+### 06.08.2018 16:37:55
+
+
+
+### 06.08.2018 16:37:55
+
+
+
+### 06.08.2018 16:43:11
+Array
+(
+    [title] => Интернет-магазин ноутбуков
+    [header] => <header>
+    <div class="logotip">
+        <a href='/'><img src="/img/logotip.png" alt="Логотип сайта" title="Магазин ноутбуков"></a>
+    </div>
+</header>  
+
+
+<div class="leftblock">
+	<nav>
+    <div class="menu">
+        <ul>
+            <li><a href="/">Главная</a></li><li><a href="/catalogue/">Каталог</a></li><li><a href="/news/">Новости</a></li><li><a href="/guestbook/">Отзывы</a></li><li><a href="/contacts/">Контакты</a></li><li><a href="/basket/">Корзина (2)</a></li><li><a href="/history/">Заказы</a></li><li><a href="/admin/">Администр</a></li>
+        </ul>
+		
+    </div>
+</nav> 
+</div>
+
+    [footer] =>         <div class="footer-menu">
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Our Account</h4>
+        <ul>
+            <li><a href="#">Discount</a></li>
+            <li><a href="#">Addres</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenea
+    </div>
+</div>
+<p>&copy; Все права защищены</p>    
+    [login] => <p> Добро пожаловать, admin 
+    <a href='/logout/?back=/'><button>Выйти</button></a>
+</p>
+    [greetings] => Добро пожаловать в наш интернет-магазин ноутбуков! У нас огромный
+						ассортимент комплектующих и расходных материалов для ремонта ноутбуков, планшетов 
+						и телефонов. 
+)
+
+
+
+### 06.08.2018 16:43:14
+Array
+(
+    [title] => Интернет-магазин ноутбуков
+    [header] => <header>
+    <div class="logotip">
+        <a href='/'><img src="/img/logotip.png" alt="Логотип сайта" title="Магазин ноутбуков"></a>
+    </div>
+</header>  
+
+
+<div class="leftblock">
+	<nav>
+    <div class="menu">
+        <ul>
+            <li><a href="/">Главная</a></li><li><a href="/catalogue/">Каталог</a></li><li><a href="/news/">Новости</a></li><li><a href="/guestbook/">Отзывы</a></li><li><a href="/contacts/">Контакты</a></li><li><a href="/basket/">Корзина (2)</a></li><li><a href="/history/">Заказы</a></li><li><a href="/admin/">Администр</a></li>
+        </ul>
+		
+    </div>
+</nav> 
+</div>
+
+    [footer] =>         <div class="footer-menu">
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Our Account</h4>
+        <ul>
+            <li><a href="#">Discount</a></li>
+            <li><a href="#">Addres</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenea
+    </div>
+</div>
+<p>&copy; Все права защищены</p>    
+    [login] => <p> Добро пожаловать, admin 
+    <a href='/logout/?back=/logout/?back=/'><button>Выйти</button></a>
+</p>
+)
+
+
+
+### 06.08.2018 16:43:14
+Array
+(
+    [title] => Интернет-магазин ноутбуков
+    [header] => <header>
+    <div class="logotip">
+        <a href='/'><img src="/img/logotip.png" alt="Логотип сайта" title="Магазин ноутбуков"></a>
+    </div>
+</header>  
+
+
+<div class="leftblock">
+	<nav>
+    <div class="menu">
+        <ul>
+            <li><a href="/">Главная</a></li><li><a href="/catalogue/">Каталог</a></li><li><a href="/news/">Новости</a></li><li><a href="/guestbook/">Отзывы</a></li><li><a href="/contacts/">Контакты</a></li><li><a href="/basket/">Корзина (2)</a></li>
+        </ul>
+		
+    </div>
+</nav> 
+</div>
+
+    [footer] =>         <div class="footer-menu">
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Our Account</h4>
+        <ul>
+            <li><a href="#">Discount</a></li>
+            <li><a href="#">Addres</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenea
+    </div>
+</div>
+<p>&copy; Все права защищены</p>    
+    [login] => <form id='login' action='/login/?back=/' method='POST'>
+	Привет, гость! 
+	<input type='text' name='login'>
+	<input type='password' name='password'>
+	<label for="saveCooki">запомнить</label>
+	<input type="checkbox" name="rememberme" id="saveCooki"/>
+	<input type='submit' name='loginform' value='Войти'>
+</form>
+
+    [greetings] => Добро пожаловать в наш интернет-магазин ноутбуков! У нас огромный
+						ассортимент комплектующих и расходных материалов для ремонта ноутбуков, планшетов 
+						и телефонов. 
+)
+
+
+
+### 06.08.2018 16:43:15
+Array
+(
+    [title] => Интернет-магазин ноутбуков
+    [header] => <header>
+    <div class="logotip">
+        <a href='/'><img src="/img/logotip.png" alt="Логотип сайта" title="Магазин ноутбуков"></a>
+    </div>
+</header>  
+
+
+<div class="leftblock">
+	<nav>
+    <div class="menu">
+        <ul>
+            <li><a href="/">Главная</a></li><li><a href="/catalogue/">Каталог</a></li><li><a href="/news/">Новости</a></li><li><a href="/guestbook/">Отзывы</a></li><li><a href="/contacts/">Контакты</a></li><li><a href="/basket/">Корзина (2)</a></li>
+        </ul>
+		
+    </div>
+</nav> 
+</div>
+
+    [footer] =>         <div class="footer-menu">
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Our Account</h4>
+        <ul>
+            <li><a href="#">Discount</a></li>
+            <li><a href="#">Addres</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenea
+    </div>
+</div>
+<p>&copy; Все права защищены</p>    
+    [login] => <form id='login' action='/login/?back=/login/?back=/' method='POST'>
+	Привет, гость! 
+	<input type='text' name='login'>
+	<input type='password' name='password'>
+	<label for="saveCooki">запомнить</label>
+	<input type="checkbox" name="rememberme" id="saveCooki"/>
+	<input type='submit' name='loginform' value='Войти'>
+</form>
+
+)
+
+
+
+### 06.08.2018 16:43:15
+Array
+(
+    [title] => Интернет-магазин ноутбуков
+    [header] => <header>
+    <div class="logotip">
+        <a href='/'><img src="/img/logotip.png" alt="Логотип сайта" title="Магазин ноутбуков"></a>
+    </div>
+</header>  
+
+
+<div class="leftblock">
+	<nav>
+    <div class="menu">
+        <ul>
+            <li><a href="/">Главная</a></li><li><a href="/catalogue/">Каталог</a></li><li><a href="/news/">Новости</a></li><li><a href="/guestbook/">Отзывы</a></li><li><a href="/contacts/">Контакты</a></li><li><a href="/basket/">Корзина (2)</a></li><li><a href="/history/">Заказы</a></li><li><a href="/admin/">Администр</a></li>
+        </ul>
+		
+    </div>
+</nav> 
+</div>
+
+    [footer] =>         <div class="footer-menu">
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Our Account</h4>
+        <ul>
+            <li><a href="#">Discount</a></li>
+            <li><a href="#">Addres</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Category</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenea
+    </div>
+</div>
+<p>&copy; Все права защищены</p>    
+    [login] => <p> Добро пожаловать, admin 
+    <a href='/logout/?back=/'><button>Выйти</button></a>
+</p>
+    [greetings] => Добро пожаловать в наш интернет-магазин ноутбуков! У нас огромный
+						ассортимент комплектующих и расходных материалов для ремонта ноутбуков, планшетов 
+						и телефонов. 
+)
+
+
+
