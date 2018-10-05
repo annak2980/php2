@@ -1,19 +1,14 @@
 <?php
-/*	Обертки функция для обращений к базе данных
-	getAssocResult возвращает результат запроса 
-	в виде ассоциативного массива array_result,
-	где каждый элемент это строка ответа базы
+session_start();
+function getAssocResult($sql, $db = null){
+    if($db == null){
+        $db = mysqli_connect(HOST, USER, PASS, DB);
+        mysqli_query($db, "SET NAMES utf8");
+    }
 
-	executeQuery возвращает результат запроса
-	как есть, можно использовать для удаления, 
-	или изменения даннных, когда не требуется
-	ответа от базы
-
-*/
-function getAssocResult($sql){
-    $db = mysqli_connect(HOST, USER, PASS, DB);
 	$result = mysqli_query($db, $sql);
 	$array_result = array();
+	
 	while($row = mysqli_fetch_assoc($result))
 		$array_result[] = $row;
 
@@ -21,8 +16,29 @@ function getAssocResult($sql){
 	return $array_result;
 }
 
-function executeQuery($sql){
+function getRowResult($sql, $db = null){
+    $array_result = getAssocResult($sql, $db);
+
+    if(isset($array_result[0]))
+        $result = $array_result[0];
+    else
+        $result = [];
+
+    return $result;
+}
+
+function getConnection(){
     $db = mysqli_connect(HOST, USER, PASS, DB);
+    mysqli_query($db, "SET NAMES utf8");
+    return $db;
+}
+
+function executeQuery($sql, $db = null){
+    if($db == null){
+        $db = mysqli_connect(HOST, USER, PASS, DB);
+        mysqli_query($db, "SET NAMES utf8");
+    }
+
 	$result = mysqli_query($db, $sql);
     mysqli_close($db);
 	return $result;
