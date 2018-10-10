@@ -1,31 +1,30 @@
 <?php
+
+//подключаем все библиотеки
 require_once('../config/config.php');
 
-session_start();
-
+//получаем URL запроса к сайту и разбиваем его в массив url_array
 $url_array = explode("/", $_SERVER['REQUEST_URI']);
-//explode Возвращает массив (array) строк (string), созданный делением параметра string по границам, указанным параметром delimiter.
-//Если delimiter является пустой строкой (""), explode() возвращает FALSE. Если delimiter не содержится в string, и используется отрицательный limit, то будет возвращен пустой массив (array), иначе будет возвращен массив, содержащий string.
 
-//В элемент $_SERVER['REQUEST_URI'] содержит имя скрипта, начиная от корневой директории виртуального хоста и параметры
 
-$page_name = "index";
-if($url_array[1] != "")
+if ($url_array[1] == ""){
+	$page_name = "main_gallery"; //главная страница сайта пока будет не index, а галерея картинок
+    
+    header("location: /main_gallery/");
+}
+else
 	$page_name = $url_array[1];
 
-if ($url_array[2] != "") {
-    
-    //отделяем возможные параметры $_GET от действий action
-    if (($_GET["id_page"] != "")||($_GET["back"] != "")||($_GET["login"] != "")||($_GET["code"] != "")) 
-        $action   = ""; 
-    else
-        $action = $url_array[2]; //дополнительное действие к url,например delete или edit
-}
+//подготовку переменных вынесли в отдельную функцию
+//в нее передаем имя страницы, переменные для которой нужно подготовить
+$variables = prepareVariables($page_name);
 
-$variables = prepareVariables($page_name, $action);
+$mainvar = [];
 
-$isAjax = ($action == "") ? false : true;
+$mainvar["content"]   = renderPage($page_name, $variables);
+$mainvar["titlepage"] = 'МАГАЗИН ФОТОКАРТИН';
 
-echo renderPage($page_name, $variables, $isAjax);
+echo renderPage("main", $mainvar);
 
-
+_log("Страница загружена",'messages');
+_log($variables,'vars');

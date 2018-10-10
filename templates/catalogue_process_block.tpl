@@ -1,1 +1,0 @@
-<a class='remove_good' id='{{ID_GOOD}}' href=''><button>Удалить</button></a>

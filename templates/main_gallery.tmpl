@@ -1,0 +1,13 @@
+    <main>   
+        <center><h1> {{ titlepage }} </h1></center>
+        <h2> {{ header }} </h2>
+        {% for item in imgsfeed %}
+            {% autoescape false %} 
+                {{ item }}
+            {% endautoescape %} 
+        {% endfor %}   
+    </main>
+    
+    {% autoescape false %}    
+        {{ footer }}
+    {% endautoescape %} 
