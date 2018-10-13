@@ -1,23 +1,29 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'php_2_3lesson');
-define('DB_DRIVER','mysql');
 
-define('SITE_ROOT', "../");
-define('WWW_ROOT', SITE_ROOT . '/public');
-define('DATA_DIR', SITE_ROOT . 'data');
-define('LIB_DIR', SITE_ROOT . 'engine');
-define('TPL_DIR', SITE_ROOT . 'templates');
+function __autoload($classname){ //автозагрузчик классов контроллеров и моделей
+    
+    try{
+        if (mb_substr($classname, 0, 1) == 'C') 
+            $fileInc = include_once("c/$classname.php");
+        else
+            $fileInc = include_once('m/'.$classname.'_model.php');     
+        if($fileInc === false){        
+            throw new Exception('Невозможно открыть файл с описанием класса '.$classname);     
+        }
+    } 
+    //Перехватываем (catch) исключение, если что-то идет не так.
+    catch (Exception $ex) {
+    //Выводим сообщение об исключении.
+        echo $ex->getMessage();
+    }
+    
+}
 
-define('SITE_TITLE', 'Занятие 3 курс PHP2');
-define('IMG_BIG_DIR', '../img/600x450');
-define('IMG_LIT_DIR', '../img/200x150');
+define('DRIVER','mysql');
+define('SERVER', 'localhost');
+define('USERNAME', 'root');
+define('PASSWORD', '');
+define('DB', 'php_2_5lesson');
+define('CHARSET','utf-8');
 
-//Константы ошибок
-define('ERROR_NOT_FOUND', 1);
-define('ERROR_TEMPLATE_EMPTY', 2);
-
-//подключаем автозагрузчик библиотек
-require_once(LIB_DIR . '/lib_autoload.php');
+Dbpdo::getInstance()->connect();

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title> {{ title }} </title>
+	<meta content="text/html; charset=Windows-1251" http-equiv="content-type">	
+	<link rel="stylesheet" type="text/css" media="screen" href="v/style.css" /> 	
+</head>
+<body>
+	<div id="header">
+		<h1> {{ title }} </h1>
+	</div>
+	
+	<div id="menu">
+		<a href="index.php">На главную</a> | 
+		<a href="index.php?c=page&act=edit">Редактировать</a> | 
+		{% autoescape false %} {{ usermenu }} {% endautoescape %}
+	</div>
+	
+	<div id="content">
+		{% autoescape false %} {{ content }} {% endautoescape %}
+	</div>
+	
+	<div id="footer">
+		Мой Сайт
+	</div>
+</body>
+</html>
